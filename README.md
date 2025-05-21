@@ -36,3 +36,10 @@ pip install -e .
 python screen_gemini_assistant.py
 ```
 按下Shift+R测试截图、API调用和语音播报功能。
+
+4. QA
+本地运行可能在命令行中没有通过代理访问，网络不通，需要设置代理。在power shell中举例如下：
+```bash
+$env:http_proxy="http://127.0.0.1:7890"
+$env:https_proxy="http://127.0.0.1:7890"
+```
